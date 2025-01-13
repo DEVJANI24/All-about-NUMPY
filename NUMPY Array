@@ -1,0 +1,25 @@
+1. NumPy Arrays
+Concept:
+The core data structure in NumPy is the ndarray (n-dimensional array).
+Arrays are faster and more efficient than Python lists.
+
+Syntax:
+import numpy as np
+# Creating a 1D array
+arr1 = np.array([1, 2, 3, 4])
+
+# Creating a 2D array
+arr2 = np.array([[1, 2], [3, 4]])
+
+Examples:
+# 1D Array
+arr = np.array([5, 10, 15])
+print(arr)
+
+# 2D Array
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+print(matrix)
+
+Questions for self-practice:
+Write code to create a 3x3 array filled with zeros.
+Create a 2D array of shape (2, 4) with values ranging from 10 to 17.

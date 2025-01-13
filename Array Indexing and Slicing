@@ -1,0 +1,22 @@
+3. Array Indexing and Slicing
+Concept:
+Access elements using indices.
+Supports slicing for subarray creation.
+
+Syntax:
+# Accessing elements
+element = arr[1]
+
+# Slicing
+sub_array = arr[1:4]
+
+Examples:
+arr = np.array([10, 20, 30, 40, 50])
+# Indexing
+print(arr[2])  # Output: 30
+# Slicing
+print(arr[1:4])  # Output: [20, 30, 40]
+
+Questions for your self-Practice:
+Extract the second column from a 2D array.
+Retrieve every alternate element from an array.

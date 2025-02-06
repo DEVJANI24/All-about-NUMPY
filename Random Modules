@@ -1,0 +1,13 @@
+Concept:
+Generate random numbers and create random arrays.
+Syntax:
+np.random.rand(3, 3)  # Random numbers in a 3x3 array
+np.random.randint(1, 10, size=(2, 3))  # Random integers
+
+Examples:
+random_matrix = np.random.rand(2, 2)
+print(random_matrix)
+
+Questions:
+Create an array of 5 random integers between 1 and 20.
+Generate a 4x4 array with random floats.

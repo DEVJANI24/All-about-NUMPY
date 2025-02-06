@@ -1,0 +1,31 @@
+Project: Weather Data Analysis
+
+Objective: Analyze temperature data of a city over a week using NumPy.
+
+Steps:
+Create a NumPy array with daily temperatures for a week.
+Compute the following:
+1.Average temperature of the week.
+2.Maximum and minimum temperatures.
+3.Days with temperatures above the average.
+
+Code Example:
+import numpy as np
+# Temperature data (in Celsius)
+temps = np.array([22.5, 24.8, 19.2, 23.4, 21.8, 20.1, 25.3])
+
+# Average temperature
+avg_temp = np.mean(temps)
+
+# Maximum and minimum temperatures
+max_temp = np.max(temps)
+min_temp = np.min(temps)
+
+# Days with temperatures above average
+above_avg = temps[temps > avg_temp]
+
+# Results
+print("Average Temperature:", avg_temp)
+print("Maximum Temperature:", max_temp)
+print("Minimum Temperature:", min_temp)
+print("Days Above Average Temperature:", above_avg)

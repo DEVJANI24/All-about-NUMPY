@@ -1,0 +1,14 @@
+Concept:
+Includes operations like sum, mean, median, standard deviation, etc.
+Syntax:
+np.sum(arr)
+np.mean(arr)
+
+Examples:
+arr = np.array([1, 2, 3, 4, 5])
+print(np.sum(arr))  # Output: 15
+print(np.mean(arr))  # Output: 3.0
+
+Questions:
+Find the mean and median of a 1D array.
+Compute the standard deviation of a list of numbers.

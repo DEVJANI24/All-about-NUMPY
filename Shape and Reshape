@@ -1,0 +1,19 @@
+Concept:
+Shape determines the dimensions of an array.
+Reshape changes the shape without altering data.
+Syntax:
+# Checking shape
+print(arr.shape)
+
+# Reshaping
+reshaped = arr.reshape(2, 3)
+Examples:
+arr = np.array([1, 2, 3, 4, 5, 6])
+
+# Reshaping
+matrix = arr.reshape(2, 3)
+print(matrix)
+  
+Questions:
+Reshape a 1D array of size 12 into a 3x4 array.
+Check the shape of a given 2D array.
